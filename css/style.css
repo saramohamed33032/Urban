@@ -1,0 +1,405 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin:auto;
+    width:100%;
+    background-color:#ddd; 
+    
+}
+header{
+    width:100%;
+    color:#fff; 
+    background-image: url(../img/banner.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:600px; 
+    overflow: hidden;
+/*    opacity:.7; */
+}
+nav{
+     
+    font-family:monospace;
+    font-size:15px;
+    font-weight:lighter;
+    height:30px;
+    opacity:.9; 
+    padding:10px 20px 5px 30px;
+    color:#ddd; 
+    background-color:#000;
+    
+   
+    
+    
+}
+nav h3{
+    float: left;
+    
+}
+nav h3 span{
+    color:#52a6e7; 
+}
+nav ul{
+    float:right;
+    list-style: none; 
+    padding-right:20px; 
+     
+     
+}
+nav ul li{
+    display: block;
+}
+nav ul li a{
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+     color:#52a6e7; 
+    
+}
+nav ul li ul li{
+    display:none;
+}
+nav ul li:hover ul{
+    width:300px;
+    height:600px;
+    background-color:#000;
+    transition: .5s ease-in-out; 
+    
+     
+}
+
+
+nav ul li:hover ul li{
+    padding:30px 20px 15px 10px; 
+    display:block; 
+     
+    
+}
+nav ul li ul li:hover{
+    
+    color:#52a6e7; 
+    
+}
+header .content{
+    margin:auto;
+    opacity:.7; 
+    width:100%;
+    height:650px; 
+    background-color:#000;
+    padding-top:180px; 
+    color:#fff;
+    text-align: center;
+    
+}
+header .content h1{
+    font-family: "Times New Roman", Times, serif;
+    font-size:35px;
+    font-weight:bold;
+    text-transform: capitalize;
+    
+}
+header .content p{
+    padding:0px  200px 10px 200px;
+    line-height:30px;
+    font-size:25px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: lighter;
+}
+header .content input[type="submit"]{
+    margin-top:20px; 
+    min-height:50px;
+    min-width:140px; 
+    background-color:#1b95e0;
+    color:#fff; 
+    border:none;
+    font-family: "Times New Roman", Times, serif; 
+    font-size:20px;
+    font-weight:bold;
+    opacity:1.9; 
+    border-radius:10px; 
+}
+header .content input[type="submit"]:hover{
+    cursor:pointer; 
+}
+/*end header*/
+
+/*start content*/
+.container {
+    width:90%;
+    margin: auto;
+        
+}
+
+.contain{
+    padding-top:50px;
+    padding-bottom:70px; 
+    background-color:#ddd; 
+    box-sizing:border-box;
+    overflow: hidden;
+    
+}
+
+.contain .img{
+    width:30%;
+    float: left;
+   
+}
+.contain .img img{
+    width:350px;
+    height:350px;
+    border-radius:50%; 
+    border:1px solid #a8a9ad; 
+    background:none;
+    padding:5px; 
+   
+}
+
+.contain .data{
+    width:63%; 
+    float: left;
+    padding:20px 0px 20px 60px; 
+     
+}
+.contain .data h2{
+     padding-bottom:30px;
+    font-family: "Times New Roman", Times, serif;
+    font-size:25px;
+    font-weight:bold;
+    text-transform: capitalize;
+    color:#555; 
+    
+}
+.contain .data p{
+    line-height:25px;
+    font-size:18px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: lighter;
+    color:#999; 
+}
+.contain .data input[type="submit"]{
+    margin-top:20px; 
+    min-height:50px;
+    min-width:140px; 
+    background-color:#1b95e0;
+    color:#fff; 
+    border:none;
+    font-family: "Times New Roman", Times, serif; 
+    font-size:20px;
+    font-weight:bold;
+    opacity:1.9; 
+    border-radius:10px; 
+}
+ .contain input[type="submit"]:hover{
+    cursor:pointer; 
+}
+
+/*end content*/
+/*start con*/
+
+.con{
+    padding-top:50px;
+    padding-bottom:70px; 
+    background-color:#1b95e0; 
+    box-sizing:border-box;
+    overflow: hidden;
+    
+}
+
+.con .img{
+    width:30%;
+    float:right;
+   
+}
+.con .img img{
+    width:350px;
+    height:350px;
+    border-radius:50%; 
+    border:1px solid #a8a9ad; 
+    background:none;
+    padding:5px; 
+   
+}
+
+.con .data{
+    width:63%; 
+    float:right;
+    padding:20px 60px 20px 10px; 
+     
+}
+.con .data h2{
+    padding-bottom:30px;
+    font-family: "Times New Roman", Times, serif;
+    font-size:25px;
+    font-weight:bold;
+    text-transform: capitalize;
+    color:#fff; 
+    
+}
+.con .data p{
+    line-height:25px;
+    font-size:15px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: lighter;
+    color:#fff;
+    opacity:.4; 
+}
+.con .data input[type="submit"]{
+    margin-top:20px; 
+    min-height:50px;
+    min-width:140px; 
+    background-color:#fff;
+    color:#1b95e0; 
+    border:none;
+    font-family: "Times New Roman", Times, serif; 
+    font-size:20px;
+    font-weight:bold;
+    opacity:1.9; 
+    border-radius:10px; 
+}
+ .con input[type="submit"]:hover{
+    cursor:pointer; 
+}
+
+
+/*end con*/
+/*start info*/
+
+.info{
+    padding-top:50px;
+    padding-bottom:70px;
+    overflow: hidden;
+    background-color:#ddd;
+    text-align: center;
+    margin: auto;
+    padding-left:50px; 
+    
+    
+     
+}
+.info h2{
+    padding-bottom:10px;
+    font-family: "Times New Roman", Times, serif;
+    font-size:25px;
+    font-weight:bold;
+    text-transform: capitalize;
+    color:#555; 
+    
+}
+.info p{
+    padding-bottom:30px;
+    line-height:30px;
+    font-size:20px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: lighter;
+    color:#999;
+    
+}
+.info .im div{
+    overflow: hidden;
+    float: left;
+    width:32.333%;  
+   
+    
+}
+.info .im img{
+    overflow: hidden;
+    width:300px;
+    height:300px;
+    border-radius:50%; 
+    border:1px solid #a8a9ad; 
+    background:none;
+    padding:5px; 
+   
+}
+.info .im p{
+    line-height:25px;
+    font-size:15px;
+    padding-left:25px; 
+    padding-top:10px; 
+    font-family: "Times New Roman", Times, serif;
+    font-weight: lighter;
+    color:#999; 
+}
+.info .im input[type="submit"]{
+    min-height:40px;
+    min-width:130px; 
+    background-color:#1b95e0;
+    color:#fff; 
+    border:none;
+    font-family: "Times New Roman", Times, serif; 
+    font-size:20px;
+    font-weight:bold;
+    opacity:1.9; 
+    border-radius:10px; 
+    margin-left:25px; 
+}
+ .info .im  input[type="submit"]:hover{
+    cursor:pointer; 
+}
+/*end info*/
+
+
+/*start footer*/
+
+
+.footer {
+    overflow: hidden;
+    padding-bottom:70px;
+    padding-top:50px;
+    background-color:#ddd; 
+    
+   
+    
+}
+.footer ul{
+    float: left;
+    list-style:none;
+    padding-left:40%; 
+}
+.footer ul li{
+    margin:15px; 
+    float: left;
+    border:2px double #a8a9ad;
+    padding:10px; 
+    border-radius:30px; 
+    color:#a8a9ad; 
+}
+.footer ul li a:hover{
+    color:#bab2b2;
+}
+
+.footer .copy{
+    text-align: center;
+    padding-top:120px;
+    font-family:"Arial" ,monospace;
+    font-size:13px; 
+    font-weight: lighter;
+    color:#a8a9ad;
+    padding-left:90px; 
+}
+/*end footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
